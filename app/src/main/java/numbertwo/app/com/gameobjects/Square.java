@@ -14,8 +14,9 @@ public class Square {
     /**
      * Constructeur de la classe
      */
-    public Square(){
+    public Square(int squareNumber){
 
+        number = squareNumber;
         squareType = SquareType.COMMON;
     }
 }
